@@ -1,13 +1,33 @@
 * {
     margin: auto;
+    scroll-behavior: smooth
+}
+
+.title {
+    font-family: skolar-latin, serif;
+font-weight: 400;
+font-style: normal; font-size: 36px; display: inline-block;
+    padding: 15% 35%;
+    text-align: center;
+    color: white;
+    line-height: 1
+}
+h2 {
+    font-family: skolar-latin, serif;
+
+font-weight: 400;
+
+font-style: normal;
+    padding:  45%;
 }
 p { font-family: skolar-latin, serif;
 
 font-weight: 400;
 
 font-style: normal;
-    padding: 30%;
+    padding: 15% 30%;
 }
+
 .parallax {
   /* The image used */
   background-image: url("img/witchcave-01.png");
@@ -60,3 +80,13 @@ font-style: normal;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.arrow {
+    margin: -10% 50% 0 50%;
+}
+.blue {color: black}
+
+.blue:hover {color: #7997F8}
+
+.red {color: black}
+
+.red:hover {color: #8a0303}
