@@ -138,14 +138,47 @@ font-style: normal;
 .arrow {
     margin: -10% 50% 0 50%;
 }
-.blue {color: black}
+.blue {
+    color: black
+}
 
-.blue:hover {color: #7997F8}
+.blue:hover {
+    color: #7997F8
+}
 
-.red {color: black}
+.red {
+    color: black
+}
 
-.red:hover {color: #8a0303}
+.red:hover {
+    color: #8a0303
+}
+.grey {
+    color: black;
+}
+.grey:hover {
+    color:#7b9095;
+}
+a {
+        -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
 
-#eyes {
-    transform: scale(50px, 50px)
+   .fade:hover {
+      opacity: 0.5;
+      }
+.rose {
+    color: black;
+}
+.rose:hover {
+    color: #F7CAC9;
 }
